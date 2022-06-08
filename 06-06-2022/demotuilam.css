@@ -14,52 +14,75 @@ body,html{
 .HeaderBanner {
    width: 30%;
     background-color: aquamarine;
-    height: 70px;
+    height: 40px;
     float: left;
 
 }
 .headerLogo {
    width: 70%;
     background-color: rgb(205, 132, 132);
-    height: 70px;
+    height: 40px;
     float: left;
 
 }
 .HeaderBar {
     width: 100%;
     background-color: pink;
-    height:70px;
+    height:50px;
     float: left;
+    margin-bottom: 10px;
 }
 .LeftBlocks {
     width: 20%;
-    height: 700px;
+    height: 550px;
     background-color: tomato; 
     float: left;
 } 
-.CenterCenterBlock {
+.content {
     width: 60%;
-    height: 200px;
+    float: left;
+
+}
+.CenterCenterBlock {
+    width: 100%;
+    height: 100px;
     background-color: aqua;
     float: left;
 }
 .CenterLeftBlocks {
-    width:30% ;
+    width:50% ;
     height: 300px;
     background-color: pink;
     float: left;
 }
 .CenterRightBlocks {
-    width:30% ;
+    width:50% ;
     height: 300px;
     background-color: green;
     float: left;
 }
 .RightBlocks {
-    width:19%;
-    height: 600px;
-    background-color: red;float: left;
+    width:20%;
+    height: 550px;
+    background-color: red;
+    float: right;
     
+}
+.ModuleContents {
+    width: 60%;
+    background-color: gray;
+    height: 150px;
+    float: left;
+   
+}
+.FooterBar {
+    width: 100%;
+    background-color: blueviolet;
+    height: 117px;
+    float: left;
+    
+    
+
 }
 
 
