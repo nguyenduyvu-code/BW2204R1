@@ -15,9 +15,13 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
+        span {
+            background-color: #000;
+            color: #fff;
+        }
+
         header {
-            text-align: center;
-            
+            text-align: cente;
         }
 
         .container {
@@ -34,16 +38,14 @@
 
         .author-container {
             width: 37.5%;
-            height: 100px;
+            float: left;
+            overflow: hidden;
         }
 
-        .blog {
+        .blog, .author-container {
             box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-            
+            margin-bottom: 40px;
 
-        }
-        .blog:hover {
-           background-color: gray;
         }
 
         .blog img {
@@ -53,16 +55,31 @@
         .blog-content {
             padding: 20px;
         }
+
+        .blog:hover, .author-container:hover {
+            background-color: #EEEEEE;
+        }
+        
+        @media screen and (max-width: 992px) {
+        		.container {
+            		width: 95%;
+            }
+        
+            .blog-container, .author-container {
+            		width: 100%;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header>
         <h1>My Blog</h1>
-        <p>Welcome to Blog of Lam Duc Long</p>
+        <p>Welcome to Blog of <span>Lam Duc Long</span></p>
     </header>
     <div class="container">
         <div class="blog-container">
+
             <div class="blog">
                 <img src='./img/image/image/blog_banner.jpg'>
                 <div class="blog-content">
@@ -75,9 +92,45 @@
                     </p>
                 </div>
             </div>
+
+            <div class="blog">
+                <img src='./img/image/image/blog_banner.jpg'>
+                <div class="blog-content">
+                    <h2>TITLE HEADING</h2>
+                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
+                        Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor
+                        cursus at.
+                        Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                        Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p>
+                </div>
+            </div>
+
+            <div class="blog">
+                <img src='./img/image/image/blog_banner.jpg'>
+                <div class="blog-content">
+                    <h2>TITLE HEADING</h2>
+                    <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
+                        Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor
+                        cursus at.
+                        Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                        Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                    </p>
+                </div>
+            </div>
+
         </div>
         <div class="author-container">
-
+            <img src='./img/image/image/author.jpg'>
+            <div class="blog-content">
+                <h2>TITLE HEADING</h2>
+                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl.
+                    Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor
+                    cursus at.
+                    Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum.
+                    Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.
+                </p>
+            </div>
         </div>
     </div>
 </body>
