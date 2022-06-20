@@ -2,13 +2,19 @@
     margin: 0;
     padding: 0;
 }
-body,html{
+body{
     width: 100%;
     height: 100%;
+    /* align-items: center;
+    display: flex;
+    justify-content: center;
+    
+     */
 }
 .a {
     text-align: center;
     color: black;
+   
 }
 
 .HeaderBanner {
@@ -16,6 +22,7 @@ body,html{
     background-color: aquamarine;
     height: 40px;
     float: left;
+    justify-content: center;
 
 }
 .headerLogo {
@@ -69,7 +76,7 @@ body,html{
     
 }
 .ModuleContents {
-    width: 60%;
+    width: 100%;
     background-color: gray;
     height: 150px;
     float: left;
@@ -80,6 +87,7 @@ body,html{
     background-color: blueviolet;
     height: 117px;
     float: left;
+    margin: 1px;
     
     
 
