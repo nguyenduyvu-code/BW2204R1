@@ -1,0 +1,63 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-size: 36px;
+    font-weight: 800;
+    color: aliceblue;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+    background-color: burlywood;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+  
+    
+
+}
+ .container div {
+    width: 10%;
+ }
+
+
+.item-1 {
+    background-color: chocolate;
+    /* flex-shrink: 2; */ 
+    /* dùng để ép lại nhỏ nhất có thể| */
+    
+}
+
+.item-2 {
+    background-color: chartreuse;
+    order: -1;
+}
+
+.item-3 {
+    background-color: darkslategrey;
+    
+    
+    
+}
+
+.item-4 {
+    background-color: darksalmon;
+
+}
+
+.item-5 {
+    background-color: deeppink;
+    flex-grow: 1;
+    /* flex-grow dùng để chia phần muốn chia khi còn thừa | */
+}
+
+.item-6 {
+    background-color: goldenrod;
+}
