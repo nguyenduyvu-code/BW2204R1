@@ -1,0 +1,42 @@
+body {
+  font-family: "gotu", "sans-serif";
+  font-size: 16px;
+}
+
+#container {
+  max-width: 800px;
+  margin: auto;
+}
+#container nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+#container nav li {
+  width: 33%;
+  background-color: lightblue;
+  border: 2px solid navy;
+  text-align: center;
+  transition: 0, 5s;
+}
+#container nav a {
+  text-decoration: none;
+}
+#container nav li:hover {
+  background-color: navy;
+}
+#container nav a {
+  color: lightblue;
+}
+#container h1 {
+  color: navy;
+}
+@media screen and (max-width: 649px) {
+  #container nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  #container nav ul li {
+    width: 90% !important;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    font-size: 20px;
 }
 
 :root {
@@ -11,6 +12,9 @@
     /* rgba(0, 150, 135, 0) */
     --colora: rgba(0, 150, 135, 0);
     
+}
+h1 {
+    line-height: 20px;
 }
 
 /* Phan 1: Header */
@@ -71,11 +75,11 @@
     width: 0%;
     height: 100%;
     background-color: #fff;
-    position: absolute;
+   position: absolute;
     top: 0;
     left: 0;
     z-index: -1 ;
-    transition: width 1s;
+    transition: 0.5\s;
     
 }
 .header > div:nth-child(3) > a:hover span {
@@ -87,6 +91,9 @@
 
 
 /* Het Phan 1: Header */
+
+
+
 
 /* Phan 2: Features */
 
